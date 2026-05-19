@@ -32,3 +32,4 @@ __pycache__/
 
 # Blender temporários
 *.blend1
+.claude/

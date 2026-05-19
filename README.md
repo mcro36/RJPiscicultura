@@ -53,7 +53,7 @@ Alevino → Produção RAS → Filé (R$ 43/kg) ──► B2B Restaurantes (80%)
 ```
 /
 ├── README.md                    ← Esta página
-├── Documentacao/                ← Documentação técnica completa (13 docs)
+├── Doc/                ← Documentação técnica completa (13 docs)
 │   ├── README.md                ← Índice da documentação
 │   ├── 01_Infraestrutura_e_Aeracao.md
 │   ├── 01b_Sistema_RAS.md       ← Cornell dual-drain, trem sólidos, biofiltro
@@ -76,7 +76,7 @@ Alevino → Produção RAS → Filé (R$ 43/kg) ──► B2B Restaurantes (80%)
 
 1. **Verticalização Total:** ração própria + energia própria dobram a margem
 2. **Gravidade > Bombas:** trem de sólidos 100% gravitacional — zero fragmentação, zero bomba de sólidos
-3. **Bomba 0,5 CV c/ VFD > Airlift:** Sr = 0,286 no circuito externo — airlift inoperante a 1,40 m de lâmina (análise completa em [01b](Documentacao/01b_Sistema_RAS.md))
+3. **Bomba 0,5 CV c/ VFD > Airlift:** Sr = 0,286 no circuito externo — airlift inoperante a 1,40 m de lâmina (análise completa em [01b](Doc/01b_Sistema_RAS.md))
 4. **Isolamento > Potência:** EPS + Bomba de Calor Inverter — retenção térmica mais barata que aquecimento bruto
 5. **Reinvestimento > Amortização:** ROI novo tanque ~365% a.a. vs PRONAF 4,5% a.a. — ganho cumulativo +R$ 3,7M em 13 anos
 
