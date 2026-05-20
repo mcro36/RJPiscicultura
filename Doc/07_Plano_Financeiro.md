@@ -31,16 +31,18 @@ Documento mestre com todas as métricas financeiras do projeto: CAPEX por fase (
 
 | Fase | Descrição | Valor (R$) |
 | :---: | :--- | :--- |
-| 1 | Infraestrutura (7 tanques — 6 produção + 1 T7), Aeração EPDM, **Bombas Recirculação 0,5 CV c/ VFD**, Processamento Linguiça, Sump + **Decantador Cônico + Laminar + Loop Kidney**, **Galpão SIE + tampas EPS + redundância N+1** | **197.850** |
-| 2 | Automação e Segurança (CLP, sensores OD+pH, inversores, gerador, **contator de calcário**, **sensor ΔP filtro kidney**) | **51.500** |
+| 1 | Infraestrutura (7 tanques — 6 produção + 1 T7), Aeração EPDM, **Bombas Recirculação 0,5 CV c/ VFD**, Processamento Linguiça, Sump + **Decantador Cônico + Laminar + Loop Kidney**, **Galpão SIE + tampas EPS + redundância N+1**, **Gerador 8–10 kVA + QTA** | **209.850** |
+| 2 | Automação e Segurança (CLP, sensores OD+pH, inversores, **contator de calcário**, **sensor ΔP filtro kidney**, **sensor pressão manifold sopradores**) | **39.750** |
 | 3 | Climatização, Alimentação e **Fotoperíodo 16h (LEDs)** (Bomba de Calor, isolamento, luminárias) | **56.100** |
-| 4 | Fábrica de Ração + Graxaria (c/ controle de odor) | 107.600 |
+| 4 | Fábrica de Ração + Graxaria (c/ controle de odor, **soft-starter extrusora**) | 111.600 |
 | 5 | Energia Solar (sistema **28 kWp** completo — redimensionado para cobrir Bombas de Recirculação 0,5 CV c/ VFD) | **119.800** |
 | **6** | **Otimização Química e Economia Circular (TiO₂+UV + Reator Estruvita)** | **13.000** |
 | | Licenciamento (COPAM, IGAM, SIE) | 9.000 |
-| **TOTAL** | | **R$ 554.850** |
+| **TOTAL** | | **R$ 559.100** |
 
-*Fase 1 inclui: 7º tanque T7 Acabamento Comercial (R$ 8.000), 6 Bombas de Recirculação **0,5 CV c/ VFD** inline (R$ 7.200), equipamentos de linguiça (R$ 13.000), Sump Coletor 300L HDPE (R$ 800), **Decantador Cônico 1.500L (R$ 1.400) + Decantador Laminar (R$ 1.800) + interligação por gravidade (R$ 600) + Loop Kidney: bomba 0,25 CV (R$ 600) e carcaça + mangas poliéster 10 µm (R$ 450)** — Hidrociclone e Bomba de Sólidos eliminados (circuito 100% gravidade, ver Doc 01) —, **Galpão de processamento SIE (R$ 60.000), placas EPS tampa-tanques (R$ 15.000) e redundância N+1 (R$ 4.000)**. Fase 2 inclui contator de calcário passivo (R$ 3.000), sensor de pH integrado ao CLP e sensor de pressão diferencial do filtro kidney (R$ 700). Fase 3 inclui sistema de fotoperíodo: **12 barras LED IP67 25 W (2/tanque, 50 W/tanque) + drivers PWM dimerizáveis + cabeamento** (R$ 2.000). Fase 4: Fábrica Ração R$ 62.600 + Graxaria R$ 45.000 (com controle de odor). Fase 5: solar redimensionado para **28 kWp** para cobrir a carga das Bombas de Recirculação 0,5 CV c/ VFD (+691 kWh/mês).*
+*Revisão 2026-05-19: Gerador + QTA (R$ 12.000) realocado da Fase 2 para a Fase 1 (risco operacional — alevinos entram no mês 1); soft-starter 25 CV (R$ 4.000) adicionado à Fase 4 (proteção de partida da extrusora); sensor de pressão manifold sopradores (R$ 250) adicionado à Fase 2 (mitigação da janela cega de OD). Impacto no CAPEX total: +R$ 4.250 (de R$ 554.850 para R$ 559.100). O principal PRONAF deve ser ajustado de R$ 554.850 para R$ 559.100 antes da submissão formal.*
+
+*Fase 1 inclui: 7º tanque T7 Acabamento Comercial (R$ 8.000), 6 Bombas de Recirculação **0,5 CV c/ VFD** inline (R$ 7.200), equipamentos de linguiça (R$ 13.000), Sump Coletor 300L HDPE (R$ 800), **Decantador Cônico 1.500L (R$ 1.400) + Decantador Laminar (R$ 1.800) + interligação por gravidade (R$ 600) + Loop Kidney: bomba 0,25 CV (R$ 600) e carcaça + mangas poliéster 10 µm (R$ 450)** — Hidrociclone e Bomba de Sólidos eliminados (circuito 100% gravidade, ver Doc 01) —, **Galpão de processamento SIE (R$ 60.000), placas EPS tampa-tanques (R$ 15.000), redundância N+1 (R$ 4.000) e Gerador 8–10 kVA + QTA (R$ 12.000)**. Fase 2 inclui contator de calcário passivo (R$ 3.000), sensor de pH integrado ao CLP, sensor de pressão diferencial do filtro kidney (R$ 700) e sensor de pressão no manifold dos sopradores (R$ 250). Fase 3 inclui sistema de fotoperíodo: **12 barras LED IP67 25 W (2/tanque, 50 W/tanque) + drivers PWM dimerizáveis + cabeamento** (R$ 2.000). Fase 4: Fábrica Ração R$ 66.600 (incl. soft-starter) + Graxaria R$ 45.000 (com controle de odor). Fase 5: solar redimensionado para **28 kWp** para cobrir a carga das Bombas de Recirculação 0,5 CV c/ VFD (+691 kWh/mês).*
 
 ---
 

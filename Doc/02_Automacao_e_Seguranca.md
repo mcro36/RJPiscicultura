@@ -63,10 +63,10 @@ O filtro de polimento de profundidade (manga poliéster agulhado 10 µm) opera n
 O trem de sólidos por gravidade **dispensa proteção do gerador** (não tem motor). A bomba kidney 0,25 CV é **carga não essencial** — pode permanecer desligada durante emergência sem risco aos peixes (o polimento de finos é cumulativo, não crítico no curto prazo). Cargas essenciais do gerador permanecem: Sopradores + CLP + sensores.
 
 ## Segurança Energética
-O sistema possui uma camada de proteção contra apagões:
 
-- **Gerador a Gasolina (8-10 kVA):** Com Quadro de Transferência Automática (QTA).
-- **Tempo de acionamento:** < 15 segundos após queda de energia.
+> **Gerador instalado na Fase 1** — Ver [Doc 01 — CAPEX Fase 1](01_Infraestrutura_e_Aeracao.md). O gerador + QTA (R$ 12.000) foi realocado para a Fase 1 porque os alevinos entram no mês 1 e há biomassa viva antes da automação da Fase 2 estar instalada. O monitoramento multiplexado de OD desta fase complementa o gerador, mas não o substitui.
+
+- **Gerador a Gasolina (8–10 kVA) + QTA:** acionamento < 15 segundos após queda de energia.
 - **Cargas protegidas (essenciais):** Sopradores + CLP + sensores.
 - **Cargas NÃO protegidas:** Bomba de Calor (a água leva horas para esfriar, mas peixes morrem em minutos sem ar).
 - **Combustível:** Manter reserva mínima de 20 litros para ~8 horas de operação.
@@ -177,7 +177,7 @@ O sensor de pH é integrado à **câmara central de multiplexação** existente 
 ---
 
 ## Riscos e Limitações
-- **Tempo de amostragem multiplexada:** O intervalo de ~10 min entre leituras cria uma "janela cega" onde uma queda brusca de OD pode não ser detectada imediatamente. Mitigação: os inversores devem operar com margem de segurança (nunca abaixo de 50% de potência na madrugada).
+- **Tempo de amostragem multiplexada ("janela cega"):** O intervalo de ~10 min entre leituras significa que um colapso de OD pode não ser detectado por até 10,8 min — tempo suficiente para mortalidade em massa a 2.391 kg de biomassa (consumo de O₂: ~13.940 mg/min; queda de 2,5 mg/L em 60.000 L = ~10,8 min até hipóxia crítica). **Mitigação primária:** Sensor de pressão no manifold dos sopradores (R$ 250) — detecta queda ou falha do soprador em segundos, independente do ciclo de OD. Mitigação secundária: inversores operando com margem de segurança (nunca abaixo de 50% de potência na madrugada).
 - **Gasolina degradada:** Gasolina armazenada degrada em ~3 meses. Usar aditivo estabilizante ou fazer rodízio mensal do estoque.
 - **Deriva do sensor de pH:** Eletrodos de vidro derivam ~0,05 pH/semana. Calibração quinzenal obrigatória. Um pH lido como 7,1 pode ser 7,3 real se o sensor estiver descalibrado — isso anula o benefício da janela dinâmica.
 
@@ -189,10 +189,10 @@ O sensor de pH é integrado à **câmara central de multiplexação** existente 
 | Sensores ópticos OD (industriais) | 2 | 12.000 |
 | Sistema multiplexação (válvulas, bombas, câmara) | 1 | 4.000 |
 | Inversores de Frequência WEG | 2 | 4.800 |
-| Gerador 8-10 kVA + QTA | 1 | 12.000 |
 | Mão de obra técnica (instalação + programação CLP) | 1 | 5.000 |
 | Contator de Calcário Passivo (brita calcítica, caixa PVC, tubulação — ver [Doc 06 §6.4](06_Qualidade_Riscos_e_Licenciamento.md)) | 1 | 3.000 |
 | Sensor de pressão diferencial (filtro kidney) + integração CLP | 1 | 700 |
-| **TOTAL FASE 2** | | **R$ 51.500** |
+| Sensor de pressão no manifold dos sopradores *(detecção imediata de falha de soprador — mitigação da janela cega de OD; alarme Telegram em <5 s)* | 1 | 250 |
+| **TOTAL FASE 2** | | **R$ 39.750** |
 
-*Sensor de pH eletrodo ISFET IP68 (~R$ 1.000) incluso no orçamento de "Painel CLP + IHM + componentes". Ver [Doc 02 — Seção Controle de pH](02_Automacao_e_Seguranca.md) para especificação.*
+*Gerador 8–10 kVA + QTA (R$ 12.000) realocado para Fase 1 — ver [Doc 01](01_Infraestrutura_e_Aeracao.md). Sensor de pH eletrodo ISFET IP68 (~R$ 1.000) incluso no orçamento de "Painel CLP + IHM + componentes". Ver [Doc 02 — Seção Controle de pH](02_Automacao_e_Seguranca.md) para especificação.*

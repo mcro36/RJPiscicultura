@@ -13,7 +13,7 @@ Sistema de produção intensiva de tilápia em **7 tanques de 60 m³** (6 produ�
 | Faturamento mensal (operação completa) | R$ 43.347 |
 | Lucro mensal (operação completa) | R$ 27.331 |
 | Margem operacional | 63,0% |
-| CAPEX Total (Fases 1–5) | R$ 554.850 |
+| CAPEX Total (Fases 1–5) | R$ 559.100 |
 | Payback (operação completa + linguiça + graxaria) | 1,9 anos |
 | Lucro mensal (expansão 12 tanques, pós-PRONAF) | R$ 57.187 |
 | Ganho cumulativo expansão vs amortização (13 anos) | +R$ 3,7 milhões |
@@ -28,10 +28,10 @@ O projeto adota o design **Cornell Dual-Drain** com bomba de recirculação 0,5 
 
 | Fase | Descrição | CAPEX |
 | :---: | :--- | ---: |
-| 1 | Infraestrutura: 7 tanques, aeração EPDM, Cornell Dual-Drain, trem de sólidos, galpão SIE, linguiça | R$ 197.850 |
-| 2 | Automação: sensores OD multiplexados, inversores WEG, gerador 8–10 kVA + QTA | R$ 51.500 |
+| 1 | Infraestrutura: 7 tanques, aeração EPDM, Cornell Dual-Drain, trem de sólidos, galpão SIE, linguiça, **gerador 8–10 kVA + QTA** | R$ 209.850 |
+| 2 | Automação: sensores OD multiplexados, inversores WEG, sensor pressão manifold | R$ 39.750 |
 | 3 | Climatização: Bomba de Calor Inverter, EPS, fotoperíodo LEDs 16h | R$ 68.100 |
-| 4 | Fábrica de Ração: extrusora + graxaria (silagem ácida de pescado) | R$ 107.600 |
+| 4 | Fábrica de Ração: extrusora + soft-starter + graxaria (silagem ácida de pescado) | R$ 111.600 |
 | 5 | Energia Solar 28 kWp (cobre 100% do consumo) | R$ 119.800 |
 | 6 | Otimização Química: TiO₂/UV polimento + Reator Estruvita | R$ 68.000 |
 
@@ -84,7 +84,7 @@ Alevino → Produção RAS → Filé (R$ 43/kg) ──► B2B Restaurantes (80%)
 
 ## Financiamento
 
-**PRONAF Investimento** — R$ 554.850 (100% CAPEX), taxa 4,5% a.a., carência 24 meses, amortização 96 meses (Price). Parcela mensal: R$ 6.893. Custo total de crédito: R$ 156.818 (28,3% sobre o principal).
+**PRONAF Investimento** — R$ 559.100 (100% CAPEX), taxa 4,5% a.a., carência 24 meses, amortização 96 meses (Price). Parcela mensal: ~R$ 6.946. Custo total de crédito: ~R$ 157.960 (28,3% sobre o principal).
 
 ---
 

@@ -129,6 +129,15 @@ MgO  +  H₂O  →  Mg(OH)₂  →  Mg²⁺  +  2OH⁻  (pH ↑)
 
 **Esta é a razão pela qual o MgO funciona como reagente único:** ele simultaneously fornece o Mg²⁺ para a reação e o OH⁻ para ajustar o pH, eliminando a necessidade de dosadores separados de base.
 
+### Monitoramento de Ca²⁺ vs Mg²⁺ (Qualidade do Produto)
+
+O reator opera na corrente isolada de lodo (separada do loop RAS), o que já mitiga a competição de Ca²⁺ com Mg²⁺ pelo PO₄³⁻ dentro do RAS. Porém, a precipitação competitiva de **hidroxiapatita** (Ca₅(PO₄)₃OH) pode ocorrer dentro do próprio reator se a razão Ca:Mg estiver elevada no lodo, reduzindo o rendimento de estruvita e contaminando o produto.
+
+**Protocolo recomendado:**
+- Mensalmente: medir Ca²⁺ e Mg²⁺ no lodo de entrada com kit colorimétrico (~R$ 5/teste).
+- Razão Mg:Ca > 1 (molar) favorece estruvita. Se Ca²⁺ > Mg²⁺: aumentar dose de MgO ou pré-tratar o lodo com aeração (precipita CaCO₃ antes do reator).
+- Sintoma de contaminação por hidroxiapatita: produto final esbranquiçado (estruvita pura é cristalina/transparente).
+
 ### Especificação Técnica do Módulo 6C
 
 | Item | Especificação |

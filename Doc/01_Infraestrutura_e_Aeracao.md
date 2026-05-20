@@ -122,8 +122,9 @@ A produção de linguiça começa na **primeira despesca (mês 7)**, junto com a
 | Loop Kidney — carcaça PVC fecho rápido + 3 mangas poliéster 10 µm | 1 | 450 |
 | Galpão de processamento SIE (sala de abate + câmara fria + antecâmara + paredes laváveis; **não cobre os tanques**) | 1 | 60.000 |
 | Placas rígidas de EPS para tampar os 7 tanques (cobertura térmica + bloqueio de luz natural p/ controle de fotoperíodo) | 7 | 15.000 |
+| Gerador a Gasolina 8–10 kVA + Quadro de Transferência Automática (QTA) *(segurança energética — obrigatório na Fase 1 pois os alevinos entram no mês 1; ver justificativa abaixo)* | 1 | 12.000 |
 | Redundância N+1 (bomba recirculação 0,5 CV reserva + cap óptico OD reserva + eletrodo pH reserva) | 1 | 4.000 |
-| **Subtotal Infraestrutura** | | **R$ 184.850** |
+| **Subtotal Infraestrutura** | | **R$ 196.850** |
 
 ### Processamento — Linguiça
 | Item | Qtd | Valor (R$) |
@@ -136,6 +137,8 @@ A produção de linguiça começa na **primeira despesca (mês 7)**, junto com a
 
 | | |
 | :--- | :--- |
-| **TOTAL FASE 1** | **R$ 197.850** |
+| **TOTAL FASE 1** | **R$ 209.850** |
+
+> **Por que o gerador está na Fase 1 (não na Fase 2):** Os alevinos entram no mês 1 e já há biomassa viva desde a primeira semana. Uma falha elétrica noturna (apagão de minutos) com sopradores parados causa colapso de OD e pode dizimar um tanque inteiro — R$ 9.000 em insumos + 6 meses de produção perdidos. O custo de proteção (R$ 12.000) é irrisório frente ao risco. A automação multiplexada de OD (Fase 2) complementa o gerador mas não o substitui: sem energia, nenhum sensor adiantará. **O gerador é a primeira linha de defesa, não uma conveniência de Fase 2.**
 
 > **Nota de reconciliação térmica:** as placas de EPS exercem a função de redução de perda térmica de superfície e bloqueio de luz natural (essencial para o controle de fotoperíodo por LED). Isso **torna redundante a linha "bolas flutuantes" da Fase 3** (Doc 03, ~R$ 4.200) — recomenda-se substituir, não somar, na próxima revisão do Doc 03 para evitar dupla contagem de tratamento de superfície.

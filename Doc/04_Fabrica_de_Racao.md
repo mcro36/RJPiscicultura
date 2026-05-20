@@ -10,14 +10,15 @@ Implantação de uma fábrica semi-industrial de ração extrusada flutuante, re
 - **Custo mensal com ração comercial:** R$ 16.167/mês (3.633 kg × R$ 4,45)
 - **Custo mensal com ração própria:** R$ 7.629/mês (3.633 kg × R$ 2,10)
 - **Economia mensal:** R$ 8.538/mês → **R$ 102.456/ano**
-- **Payback da fábrica (CAPEX ~R$ 63k):** ~7,5 meses após operação.
+- **Payback da fábrica (CAPEX ~R$ 67k c/ soft-starter):** ~7,8 meses após operação.
 
 ## Equipamentos
 
 ### Extrusora
-- **Tipo:** Extrusora mono-rosca semi-profissional (motor 15-25 CV).
-- **Capacidade:** 100-200 kg/h (cobre a demanda mensal de 3.633 kg em ~25h de operação/mês).
+- **Tipo:** Extrusora mono-rosca semi-profissional (motor 15–25 CV).
+- **Capacidade:** 100–200 kg/h (cobre a demanda mensal de 3.633 kg em ~25h de operação/mês).
 - **Função:** Expandir o pellet por alta pressão e temperatura, garantindo flutuabilidade (pellet afunda = desperdício + poluição do tanque).
+- **Partida:** Obrigatório soft-starter 25 CV. Partida direta de motor 25 CV gera pico de corrente de 6–7× a nominal (~375 A por 2–5 s), causando sag de tensão que pode disparar proteções dos inversores WEG dos sopradores ou do inversor solar. O soft-starter limita a corrente de partida a 2–2,5× nominal (~120 A) e elimina esse risco.
 
 ### Processamento
 - **Moinho de Martelos:** Moer grãos e ingredientes secos.
@@ -157,12 +158,13 @@ A graxaria torna a fazenda autossuficiente nos dois insumos de origem animal da 
 | Item | Qtd | Valor (R$) |
 | :--- | :---: | :--- |
 | Extrusora mono-rosca semi-profissional | 1 | 45.000 |
+| Soft-starter 25 CV (partida suave da extrusora — limita pico de corrente para 2–2,5× nominal) | 1 | 4.000 |
 | Moinho de Martelos | 1 | 5.000 |
 | Misturador Horizontal | 1 | 5.000 |
 | Secador / Estrutura de secagem | 1 | 3.000 |
 | Contêineres IBC (silagem) | 4 | 600 |
 | Insumos iniciais (farelo, premix, etc.) | 1 | 4.000 |
-| **Subtotal Ração** | | **R$ 62.600** |
+| **Subtotal Ração** | | **R$ 66.600** |
 
 ### Graxaria
 | Item | Qtd | Valor (R$) |
@@ -180,8 +182,8 @@ A graxaria torna a fazenda autossuficiente nos dois insumos de origem animal da 
 ### Resumo Fase 4
 | Módulo | Valor (R$) |
 | :--- | :---: |
-| Fábrica de Ração | 62.600 |
+| Fábrica de Ração (incl. soft-starter) | 66.600 |
 | Graxaria (processo + controle de odor) | 45.000 |
-| **TOTAL FASE 4** | **R$ 107.600** |
+| **TOTAL FASE 4** | **R$ 111.600** |
 
 *Equipamentos de processamento de linguiça (moedor, embutideira, seladora, freezer) estão na Fase 1, pois a produção começa na primeira despesca (mês 7). Ver [Doc 01](01_Infraestrutura_e_Aeracao.md).*
